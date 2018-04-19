@@ -1,4 +1,25 @@
 {
+    "gitlens.gitExplorer.files.layout": "list",
+    "gitlens.keymap": "none",
+    "gitlens.heatmap.toggleMode": "window",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": true,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": false
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.showTabs": true,
+    "window.zoomLevel": -2,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": false,
     "workbench.colorCustomizations": {
         "terminal.background": "#000",
         "terminal.foreground": "#2F2",
@@ -47,7 +68,7 @@
         "sideBarSectionHeader.foreground": "#64b1ce",
         "notification.background": "#242b38"
     },
-    "editor.tokenColorCustomizations" : {
+    "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
                 "settings": {
@@ -508,8 +529,7 @@
                 "scope": [
                     "text.html.markdown meta.dummy.line-break"
                 ],
-                "settings": {
-                }
+                "settings": {}
             },
             {
                 "name": "Markdown - Heading",
@@ -704,24 +724,5 @@
                 }
             }
         ]
-    },
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": false
-    },
-    "workbench.editor.showTabs": true,
-    "gitlens.gitExplorer.files.layout": "list",
-    "window.zoomLevel": -1,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "gitlens.keymap": "alternate",
-    "gitlens.heatmap.toggleMode": "window",
-    "workbench.startupEditor": "newUntitledFile"
+    }
 }
