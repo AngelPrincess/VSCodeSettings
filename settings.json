@@ -732,7 +732,8 @@
     //         }
     //     ]
     // },
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "right",
     "workbench.activityBar.visible": true,
     "workbench.colorTheme": "Hyper Term Black",
+    "team.showWelcomeMessage": false,
 }
