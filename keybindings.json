@@ -23,11 +23,6 @@
         "when": "!terminalFocus"
     },
     {
-        "key": "shift+cmd+down",
-        "command": "workbench.action.terminal.focusNextPane",
-        "when": "terminalFocus"
-    },
-    {
         "key": "shift+cmd+right",
         "command": "workbench.action.terminal.focusNextPane",
         "when": "terminalFocus"
@@ -38,7 +33,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "shift+cmd+up",
+        "key": "cmd+[",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
     },
@@ -51,10 +46,6 @@
         "key": "shift+cmd+[",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
-    },
-    {
-        "key": "shift+cmd+t",
-        "command": "terminal.toggle"
     },
     {
         "key": "ctrl+alt+t",
@@ -137,12 +128,12 @@
         "command": "workbench.action.reopenClosedEditor"
     },
     {
-        "key": "cmd+shift+]",
+        "key": "cmd+]",
         "command": "workbench.action.nextEditor",
         "when": "!terminalFocus"
     },
     {
-        "key": "cmd+shift+[",
+        "key": "cmd+[",
         "command": "workbench.action.previousEditor",
         "when": "!terminalFocus"
     },
@@ -370,5 +361,35 @@
         "key": "f12",
         "command": "-editor.action.goToDeclaration",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "shift+cmd+]",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "cmd+]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+[",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+cmd+[",
+        "command": "-spotify.previous"
+    },
+    {
+        "key": "shift+cmd+[",
+        "command": "-workbench.action.previousEditor"
     }
 ]
