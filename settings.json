@@ -60,4 +60,7 @@
     "workbench.activityBar.visible": true,
     "workbench.sideBar.location": "right",
     "workbench.colorTheme": "spotify-theme",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
 }
