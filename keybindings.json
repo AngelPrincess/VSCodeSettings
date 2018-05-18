@@ -121,8 +121,12 @@
     4. EXPLORER ACTIONS
     ----------------------------------------------------------------------------------*/
     {
-        "key": "cmd+escape",
-        "command": "workbench.files.action.focusFilesExplorer"
+        "key": "shift+cmd+g",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "workbench.action.files.saveAll"
     },
     {
         "key": "shift+cmd+e",
@@ -307,14 +311,7 @@
         "key": "ctrl+cmd+2",
         "command": "-workbench.action.moveEditorToSecondGroup"
     },
-    {
-        "key": "shift+cmd+g",
-        "command": "workbench.files.action.showActiveFileInExplorer"
-    },
-    {
-        "key": "shift+cmd+s",
-        "command": "workbench.action.files.saveAll"
-    },
+
     {
         "key": "alt+cmd+s",
         "command": "-workbench.action.files.saveAll"
@@ -399,5 +396,9 @@
         "key": "alt+cmd+right",
         "command": "-workbench.action.terminal.focusNextPane",
         "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+e shift+cmd+f",
+        "command": "workbench.files.action.focusFilesExplorer"
     }
 ]
