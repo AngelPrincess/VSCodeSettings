@@ -56,7 +56,7 @@
     "gitlens.historyExplorer.enabled": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontFamily": "Hack",
-    "window.zoomLevel": -3,
+    "window.zoomLevel": -1,
     "workbench.activityBar.visible": true,
     "workbench.sideBar.location": "right",
     "workbench.colorTheme": "spotify-theme",
