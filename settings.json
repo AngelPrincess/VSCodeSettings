@@ -1,7 +1,6 @@
 {
     "workbench.colorCustomizations": {
         "terminal.background": "#000700",
-        //     "terminal.foreground": "#1a2",
         "terminalCursor.foreground": "#007C00",
         //     "editor.background": "#0a1018",
         //     "editor.foreground": "#25a2a6",
@@ -33,7 +32,7 @@
         //     "badge.foreground": "#151b25",
         //     "progressBar.background": "#d8c569",
         "statusBar.foreground": "#00CC00",
-        //     "statusBar.background": "#000000",
+        "statusBar.background": "#000000",
         //     "activityBar.background": "#151b25",
         //     "activityBar.foreground": "#64b1ce",
         //     "activityBar.dropBackground": "#151b25",
@@ -45,7 +44,7 @@
         //     "sideBarTitle.foreground": "#64b1ce",
         //     "sideBarSectionHeader.background": "#0a1018",
         //     "sideBarSectionHeader.foreground": "#64b1ce",
-        //     "titleBar.activeBackground": "#000",
+        "titleBar.activeBackground": "#000",
         "titleBar.activeForeground": "#00BC00",
         //     "titleBar.inactiveBackground": "#000000",
         //     "titleBar.inactiveForeground": "#2C2",
