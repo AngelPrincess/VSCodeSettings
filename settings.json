@@ -1,4 +1,6 @@
 {
+    // WORKBENCH
+    "workbench.colorTheme": "Spotify",
     "workbench.colorCustomizations": {
         "terminal.background": "#000700",
         "terminalCursor.foreground": "#007C00",
@@ -51,15 +53,25 @@
         "titleBar.border": "#007C00",
         //     "notification.background": "#242b38"
     },
-    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-    "gitlens.historyExplorer.enabled": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontFamily": "Hack",
-    "window.zoomLevel": -1,
     "workbench.activityBar.visible": true,
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "spotify-theme",
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
+    "workbench.startupEditor": "newUntitledFile",
+    
+    // TERMINAL
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "Hack",
+    
+    // EDITOR
+    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    
+    // GIT
+    "gitlens.historyExplorer.enabled": true,
+    "git.autofetch": true,
+    "git.promptToSaveFilesBeforeCommit": true,
+    
+    // MISC
+    "window.zoomLevel": -2,
+    "editor.renderWhitespace": "boundary",
 }
