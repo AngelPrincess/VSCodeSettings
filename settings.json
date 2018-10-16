@@ -1,6 +1,9 @@
 {
     // WORKBENCH
     "workbench.colorTheme": "Spotify",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
         "terminal.background": "#000700",
         "terminalCursor.foreground": "#007C00",
@@ -53,25 +56,23 @@
         "titleBar.border": "#007C00",
         //     "notification.background": "#242b38"
     },
-    "workbench.activityBar.visible": true,
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "newUntitledFile",
-    
     // TERMINAL
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontFamily": "Hack",
-    
     // EDITOR
     "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
-    
     // GIT
-    "gitlens.historyExplorer.enabled": true,
+    "gitlens.historyExplorer.enabled": false,
     "git.autofetch": true,
     "git.promptToSaveFilesBeforeCommit": true,
-    
     // MISC
-    "window.zoomLevel": -2,
+    "window.zoomLevel": -1,
     "editor.renderWhitespace": "boundary",
+    "breadcrumbs.enabled": true,
+    "extensions.ignoreRecommendations": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "editor.tabCompletion": "on"
 }
