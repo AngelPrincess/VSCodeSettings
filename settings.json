@@ -64,7 +64,6 @@
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     // GIT
-    "gitlens.historyExplorer.enabled": false,
     "git.autofetch": true,
     "git.promptToSaveFilesBeforeCommit": true,
     // MISC
