@@ -74,6 +74,6 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDelete": false,
     "editor.tabCompletion": "on",
-    "gitlens.views.fileHistory.enabled": false,
-    "gitlens.views.lineHistory.enabled": false
+    "gitlens.views.lineHistory.enabled": true,
+    "editor.renderControlCharacters": true,
 }
